@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: castor:castor:0.9.9.0-pre">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/castor/castor/0.9.9.0-pre/castor-0.9.9.0-pre.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/castor/castor/0.9.9.0-pre/castor-0.9.9.0-pre-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/castor/castor/0.9.9.0-pre/castor-0.9.9.0-pre-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
