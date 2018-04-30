@@ -1,4 +1,4 @@
-// Generated from D:/zhuhailong-dc/workspace/ruleExpress/src/test/java/com/zhl/rules/antlr/demo\Demo.g4 by ANTLR 4.7
+// Generated from D:/zhuhailong-dc/workspace/maze/src/test/java/com/zhl/rules/antlr/demo\Demo.g4 by ANTLR 4.7
 package com.zhl.rules.antlr.demo;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;

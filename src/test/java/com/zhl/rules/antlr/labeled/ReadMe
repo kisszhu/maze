@@ -1,0 +1,15 @@
+Listener与Visitor的区别：
+Listener:监听,当有事件发生时即可自动进行相关操作，自动
+Visitor：访问，手动进行遍历，手动
+
+LabeledExprVisitor的方法名，来自LabeledExpr.g4中的标注
+Visitor的作用就是对整个语法树进行遍历，然后进行相关的操作
+
+
+
+
+
+
+
+
+

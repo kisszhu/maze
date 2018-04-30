@@ -35,32 +35,36 @@
             <artifactId>kie-api</artifactId>
             <version>6.3.0.Final</version>
         </dependency>
+
         <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-core</artifactId>
             <version>6.3.0.Final</version>
         </dependency>
+
         <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-compiler</artifactId>
             <version>6.3.0.Final</version>
         </dependency>
+
         <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-decisiontables</artifactId>
             <version>6.3.0.Final</version>
         </dependency>
+
         <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-templates</artifactId>
             <version>6.3.0.Final</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-core</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-scala</artifactId>
@@ -84,6 +88,7 @@
             <artifactId>scala-library</artifactId>
             <version>2.11.7</version>
         </dependency>
+
         <dependency>
             <groupId>org.scala-lang.modules</groupId>
             <artifactId>scala-xml_2.11</artifactId>
@@ -96,11 +101,13 @@
             <artifactId>log4j-api</artifactId>
             <scope>runtime</scope>
         </dependency>
+
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <scope>runtime</scope>
         </dependency>
+
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
@@ -179,14 +186,12 @@
             <version>2.4.7</version>
         </dependency>
 
-        
         <!-- https://mvnrepository.com/artifact/groovy/groovy -->
         <dependency>
             <groupId>groovy</groupId>
             <artifactId>groovy</artifactId>
             <version>1.0</version>
         </dependency>
-
 
         <!-- https://mvnrepository.com/artifact/groovy/groovy-all -->
         <dependency>
@@ -206,7 +211,6 @@
         <!-- 项目需要插件 -->
         <plugins>
             <!-- 用于生成Java代码 -->
-            <!--
             <plugin>
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-maven-plugin</artifactId>
@@ -226,7 +230,6 @@
                     <treatWarningsAsErrors>true</treatWarningsAsErrors>
                 </configuration>
             </plugin>
-            -->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -239,7 +242,6 @@
             </plugin>
 
             <!-- MAVEN默认只编译java源文件，此插件支持编译scala源文件 -->
-
             <!-- MAVEN默认只支持单源码目录，此插件增加源码目录 -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -263,5 +265,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
